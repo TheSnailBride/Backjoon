@@ -9,7 +9,7 @@ public class Main {
 
 
         String str1 = new String("abcd");
-        str1.length()
+        str1.length();
         System.out.println(str1.charAt(0));
     }
 }
