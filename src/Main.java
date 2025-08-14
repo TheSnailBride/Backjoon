@@ -1,124 +1,76 @@
-// Pet 인터페이스
-interface Pet {
-    void play();
-}
+public class MAIN {
+    private int[] stack;    // 스택 배열
+    private int top;        // 스택의 최상단 인덱스
+    private int capacity;   // 스택 크기
 
-// Robot 인터페이스
-interface Robot {
-    void performTask();
-}
-
-// Animal 클래스
-abstract class Animal {
-    abstract void makeSound();
-}
-
-// Feline 클래스 (Animal의 서브클래스)
-abstract class Feline extends Animal {
-    void makeSound() {
-        System.out.println("Feline sound!");
-    }
-}
-
-// Canine 클래스 (Animal의 서브클래스)
-abstract class Canine extends Animal {
-    void makeSound() {
-        System.out.println("Canine sound!");
-    }
-}
-
-// Cat 클래스 (Feline의 서브클래스)
-class Cat extends Feline implements Pet {
-    public void play() {
-        System.out.println("Cat is playing!");
+    // 생성자
+    public MyStack(int size) {
+        stack = new int[size];
+        capacity = size;
+        top = -1; // 비어있을 때 -1
     }
 
-    @Override
-    void makeSound() {
-        System.out.println("Meow");
-    }
-}
-
-// Lion 클래스 (Feline의 서브클래스)
-class Lion extends Feline {
-    @Override
-    void makeSound() {
-        System.out.println("Roar");
-    }
-}
-
-// Tiger 클래스 (Feline의 서브클래스)
-class Tiger extends Feline {
-    @Override
-    void makeSound() {
-        System.out.println("Growl");
-    }
-}
-
-// Dog 클래스 (Canine의 서브클래스)
-class Dog extends Canine implements Pet {
-    public void play() {
-        System.out.println("Dog is playing!");
+    // 스택에 데이터 넣기
+    public void push(int value) {
+        if (isFull()) {
+            System.out.println("스택이 가득 찼습니다!");
+            return;
+        }
+        stack[++top] = value;
     }
 
-    @Override
-    void makeSound() {
-        System.out.println("Bark");
-    }
-}
-
-// Wolf 클래스 (Canine의 서브클래스)
-class Wolf extends Canine {
-    @Override
-    void makeSound() {
-        System.out.println("Howl");
-    }
-}
-
-// Hippo 클래스 (Animal의 서브클래스)
-class Hippo extends Animal {
-    @Override
-    void makeSound() {
-        System.out.println("Hippo sound");
-    }
-}
-
-// RoboDog 클래스 (Pet 및 Robot 인터페이스를 구현)
-class RoboDog implements Robot, Pet {
-    public void play() {
-        System.out.println("RoboDog is playing!");
+    // 스택에서 데이터 꺼내기
+    public int pop() {
+        if (isEmpty()) {
+            System.out.println("스택이 비어있습니다!");
+            return -1; // 예외 처리
+        }
+        return stack[top--];
     }
 
-    @Override
-    public void performTask() {
-        System.out.println("RoboDog is performing a task.");
+    // 스택 최상단 값 확인
+    public int peek() {
+        if (isEmpty()) {
+            System.out.println("스택이 비어있습니다!");
+            return -1;
+        }
+        return stack[top];
     }
-}
 
-// 테스트 클래스
-public class Main {
+    // 스택이 비었는지 확인
+    public boolean isEmpty() {
+        return top == -1;
+    }
+
+    // 스택이 가득 찼는지 확인
+    public boolean isFull() {
+        return top == capacity - 1;
+    }
+
+    // 스택 출력
+    public void printStack() {
+        if (isEmpty()) {
+            System.out.println("스택이 비어있습니다!");
+            return;
+        }
+        System.out.print("스택: ");
+        for (int i = 0; i <= top; i++) {
+            System.out.print(stack[i] + " ");
+        }
+        System.out.println();
+    }
+
+    // 테스트
     public static void main(String[] args) {
-        Pet cat = new Cat();
-        Pet dog = new Dog();
-        Pet roboDog = new RoboDog();
+        MyStack stack = new MyStack(5);
 
-        cat.play();
-        dog.play();
-        roboDog.play();
+        stack.push(10);
+        stack.push(20);
+        stack.push(30);
+        stack.printStack(); // 10 20 30
 
-        Animal lion = new Lion();
-        lion.makeSound();
-
-        Animal tiger = new Tiger();
-        tiger.makeSound();
-
-        Animal hippo = new Hippo();
-        hippo.makeSound();
-
-        // Robot 기능 테스트
-        Robot robotDog = new RoboDog();
-        robotDog.performTask();
-
-
+        System.out.println("peek: " + stack.peek()); // 30
+        System.out.println("pop: " + stack.pop());   // 30
+        stack.printStack(); // 10 20
     }
 }
