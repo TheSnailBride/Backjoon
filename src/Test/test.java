@@ -12,18 +12,11 @@ public class test {
         int n = scanner.nextInt();
         int sum =0;
 
-        for (int i=1; i<n; i++) {
-            if(n%i==0){
-                System.out.println(i);
-                sum+=i;
-            }
+
+        for (int i = 1; i <= n; i++) {
+            sum = sum + i;
         }
 
-        if(sum==n){
-            System.out.println("완전수");
-        }else{
-            System.out.println("완전수 아님");
-        }
-
-    }//main
+        System.out.println(sum);
+}
 }
