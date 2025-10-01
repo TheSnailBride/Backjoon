@@ -4,19 +4,20 @@ import java.util.Scanner;
 
 public class test {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+
+
+        int[] array1 = new int[3];
+
+        array1 = new int[]{1, 2, 3};
+
+//        int[][] array = new int[2][3];
+//
+//        array[0] = {1,2,3};
+
+
+        System.out.println(array1[0]);
 
 
 
-
-        int n = scanner.nextInt();
-        int sum =0;
-
-
-        for (int i = 1; i <= n; i++) {
-            sum = sum + i;
-        }
-
-        System.out.println(sum);
 }
 }
