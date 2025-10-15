@@ -17,8 +17,8 @@ public class InsertionSort {
             arr[j+1]= key;
 
         }
-        for (int k = 0; k < arr.length; k++) {
-            System.out.println(arr[k]);
+        for (int i : arr) {
+            System.out.println(i);
         }
     }
 }
