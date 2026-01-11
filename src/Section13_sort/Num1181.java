@@ -16,7 +16,7 @@ public class Num1181 {
         }
         Arrays.sort(st, (s1, s2) -> {
             // 조건 1: 길이가 다르면 길이 오름차순
-            if (s1.length() != s2.length()) {
+            if (s1.length() == s2.length()) {
                 return s1.length() - s2.length();
             }
             // 조건 2: 길이가 같으면 사전순 (String의 기본 compareTo 사용)
