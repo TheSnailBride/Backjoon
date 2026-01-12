@@ -1,7 +1,6 @@
 package Section14_MapSet;
 
-import java.util.Arrays;
-import java.util.Scanner;
+import java.util.*;
 
 public class 숫자카드_Num10815 {
     public static void main(String[] args) {
@@ -9,34 +8,31 @@ public class 숫자카드_Num10815 {
         Scanner in = new Scanner(System.in);
 
         int n = in.nextInt();
-        int[] n_arr = new int[n];
+        HashSet s_hs = new HashSet<Integer>();
 
-        for(int i=0; i<n; i++){
-            n_arr[i] = in.nextInt();
+        for(int i=0; i<n; i++){ //상근이가 갖고 있는 카드
+            s_hs.add(in.nextInt());
         }
-
-        Arrays.sort(n_arr);
 
         int m = in.nextInt();
-        int[] m_arr = new int[m];
+
+
+        StringBuilder sb =  new StringBuilder();
+
         for(int i=0; i<m; i++){
-            m_arr[i] = in.nextInt();
-        }
-
-
-        int[] result = new int[m];
-        for(int i=0; i<m_arr.length; i++){
-            for(int j=0; j<n_arr.length; j++){
-                if(m_arr[i] == n_arr[j]) {
-                    result[i]=1;
-                    break;
-                }else{
-                    result[i] =0;
-                }
+            int target = in.nextInt();
+            if(s_hs.contains(target)){
+                sb.append("1 ");
+        }else{
+                sb.append("0 ");
             }
+
+
         }
-        for(int num:result){
-            System.out.print(num+" ");
-        }
+        System.out.println(sb.toString());
+
+
+
+
     }
 }
