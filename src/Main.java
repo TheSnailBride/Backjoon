@@ -7,20 +7,11 @@ import java.util.Set;
 import java.util.StringTokenizer;
 
 public class Main {
+        static int a;
+    public static void main(String[] args) {
 
-    public static void main(String[] args) throws IOException {
 
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        StringTokenizer st = new StringTokenizer(br.readLine());
 
-        StringBuilder sb = new StringBuilder();
-
-        br.readLine();
-
-        int a = Integer.parseInt(st.nextToken());
-        int b = Integer.parseInt(st.nextToken());
-        int c = Integer.parseInt(st.nextToken());
-
-        System.out.printf("%d%d%d", a,b,c);
+        System.out.println(a);
     }
 }
