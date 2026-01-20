@@ -14,8 +14,8 @@ public class Num10814 {
 
 
         for(int i = 0; i < N; i++) {
-            arr[i][0] = in.next();	// 나이
-            arr[i][1] = in.next();	// 이름
+            arr[i][0] = in.next();
+            arr[i][1] = in.next();
         }
 
 
