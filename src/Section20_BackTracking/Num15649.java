@@ -7,7 +7,7 @@ import java.util.StringTokenizer;
 public class Num15649 {
     static int N, M;
     static boolean[] visited;
-    static int[] result;g
+    static int[] result;
     static StringBuilder sb = new StringBuilder();
 
     public static void main(String[] args) throws Exception {
