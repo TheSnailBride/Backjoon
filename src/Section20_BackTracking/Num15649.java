@@ -1,50 +1,32 @@
 package Section20_BackTracking;
 
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
-import java.util.StringTokenizer;
+import java.util.Scanner;
 
 public class Num15649 {
-    static int N, M;
-    static boolean[] visited;
-    static int[] result;
-    static StringBuilder sb = new StringBuilder();
+    static int M,N;
+    static boolean[] visted;
 
-    public static void main(String[] args) throws Exception {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        StringTokenizer st = new StringTokenizer(br.readLine());
+    static void dfs(int depth){
 
-        N = Integer.parseInt(st.nextToken());
-        M = Integer.parseInt(st.nextToken());
+        if(depth == M) return; //길이 끝나면 종료
 
-        visited = new boolean[N + 1];
-        result = new int[M];
+        dfs(depth +1); // 다음 조건 찾기
 
-        dfs(0);
+    }
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
 
-        System.out.print(sb);
+        int N = sc.nextInt(); // 1~N;
+        int M = sc.nextInt(); //길이
+
+        visted = new boolean[M+1]; // 방문 체크
+
+
+
+
+
+
+
     }
 
-    static void dfs(int depth) {
-        // 1️⃣ 종료 조건
-        if (depth == M) {
-            for (int i = 0; i < M; i++) {
-                sb.append(result[i]).append(" ");
-            }
-            sb.append("\n");
-            return;
-        }
-
-        // 2️⃣ 1부터 N까지 선택
-        for (int i = 1; i <= N; i++) {
-            if (!visited[i]) {
-                visited[i] = true;      // 선택
-                result[depth] = i;
-
-                dfs(depth + 1);         // 다음 단계
-
-                visited[i] = false;     // 3️⃣ 복구 (백트래킹)
-            }
-        }
-    }
 }

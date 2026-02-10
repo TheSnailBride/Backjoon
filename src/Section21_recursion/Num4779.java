@@ -12,18 +12,8 @@ public class Num4779 {
 
     public static void main(String[] args) throws IOException {
 
-        BufferedReader br = new BufferedReagder(new InputStreamReader(System.in));
-
-        String str;
-
-        while((str = br.readLine()) != null){
-            int n = Integer.parseInt(str);
 
 
-        }
-
-
-        int l = (int)Math.pow(3,N);
 
 
 
