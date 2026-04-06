@@ -1,0 +1,835 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="30727f24-cb06-447f-9332-e6bf7bb793e5" name="Changes" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/src/Section12_BruteForce/Num10448.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Section20_BackTracking/Num14888.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Section20_BackTracking/Num9663.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Section24/Num24479.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Section27graph/Num24479.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backjoon/Num2178.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backjoon.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Backjoon.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Multcampus/homeWork1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Multcampus/homeWork2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Multcampus/homeWork3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Multcampus/homeWork4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Multcampus/object/Example.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Multcampus/object/Human.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Multcampus/object/walkable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Section12_BruteForce/분해합_Num2231.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Section12_BruteForce/분해합_Num2231.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Kotlin Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="kim se hyuen &lt;ksjk711@gmail.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;TheSnailBride&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/TheSnailBride/Backjoon.git&quot;,
+    &quot;accountId&quot;: &quot;2b155aba-9cf2-43cd-bc14-2aff5fcce91d&quot;
+  }
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2anUs0XLSlliDa05mLxITW9JHSw" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ArrayListExample.executor": "Run",
+    "Application.B001.executor": "Run",
+    "Application.B002.executor": "Run",
+    "Application.B003.executor": "Run",
+    "Application.B005.executor": "Run",
+    "Application.Box.executor": "Run",
+    "Application.BubbleSort.executor": "Run",
+    "Application.Circle.executor": "Run",
+    "Application.ClientWithDecorator.executor": "Run",
+    "Application.ClientWithNoProxy.executor": "Run",
+    "Application.ClientWithProxy.executor": "Run",
+    "Application.DFS.executor": "Run",
+    "Application.Driver.executor": "Run",
+    "Application.Exam01.executor": "Run",
+    "Application.Exam02.executor": "Run",
+    "Application.Exam03.executor": "Run",
+    "Application.Exam04.executor": "Run",
+    "Application.Exam05.executor": "Run",
+    "Application.Exam06.executor": "Run",
+    "Application.Exam07.executor": "Run",
+    "Application.Example.executor": "Run",
+    "Application.GenericExample.executor": "Run",
+    "Application.InsertionSort.executor": "Run",
+    "Application.Main (1).executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.Num1037.executor": "Run",
+    "Application.Num10448.executor": "Run",
+    "Application.Num10773.executor": "Run",
+    "Application.Num10811.executor": "Run",
+    "Application.Num10813.executor": "Run",
+    "Application.Num10814.executor": "Run",
+    "Application.Num10816.executor": "Run",
+    "Application.Num10828.executor": "Run",
+    "Application.Num10872.executor": "Run",
+    "Application.Num10952.executor": "Run",
+    "Application.Num11021.executor": "Run",
+    "Application.Num11050.executor": "Run",
+    "Application.Num11729.executor": "Run",
+    "Application.Num11781.executor": "Run",
+    "Application.Num1181.executor": "Run",
+    "Application.Num1427.executor": "Run",
+    "Application.Num14888.executor": "Run",
+    "Application.Num15439.executor": "Run",
+    "Application.Num15649.executor": "Run",
+    "Application.Num15650.executor": "Run",
+    "Application.Num15651.executor": "Run",
+    "Application.Num15652.executor": "Run",
+    "Application.Num1654.executor": "Run",
+    "Application.Num18258.executor": "Run",
+    "Application.Num2108.executor": "Run",
+    "Application.Num2292.executor": "Run",
+    "Application.Num2438.executor": "Run",
+    "Application.Num2439.executor": "Run",
+    "Application.Num25192.executor": "Run",
+    "Application.Num25206.executor": "Run",
+    "Application.Num25305.executor": "Run",
+    "Application.Num25501.executor": "Run",
+    "Application.Num26069.executor": "Run",
+    "Application.Num2675.executor": "Run",
+    "Application.Num2743.executor": "Run",
+    "Application.Num2750.executor": "Run",
+    "Application.Num27866.executor": "Run",
+    "Application.Num2805.executor": "Run",
+    "Application.Num28278.executor": "Run",
+    "Application.Num2839.executor": "Run",
+    "Application.Num2908.executor": "Run",
+    "Application.Num4779.executor": "Run",
+    "Application.Num9012.executor": "Run",
+    "Application.Num9086.executor": "Run",
+    "Application.Num9663.executor": "Run",
+    "Application.Num_1920.executor": "Run",
+    "Application.Section21_recursion.Num11729.executor": "Run",
+    "Application.SelectionSort.executor": "Run",
+    "Application.Test.executor": "Run",
+    "Application.Test.homework.Main.executor": "Run",
+    "Application.Test.homework.work0804_2.Main.executor": "Run",
+    "Application.Zookeeper.executor": "Run",
+    "Application.array_03.executor": "Run",
+    "Application.exam03.executor": "Run",
+    "Application.exam04.executor": "Run",
+    "Application.exam05.executor": "Run",
+    "Application.exam06.executor": "Run",
+    "Application.exam08.executor": "Run",
+    "Application.exam09.executor": "Run",
+    "Application.exam10.executor": "Run",
+    "Application.exam11.executor": "Run",
+    "Application.exam12.executor": "Run",
+    "Application.export001_001.Driver.executor": "Run",
+    "Application.export001_003.Driver.executor": "Run",
+    "Application.homeWork1.executor": "Run",
+    "Application.homeWork2.executor": "Run",
+    "Application.homeWork3.executor": "Run",
+    "Application.homeWork4.executor": "Run",
+    "Application.test.executor": "Run",
+    "Application.work01.executor": "Run",
+    "Application.work02.executor": "Run",
+    "Application.개수세기_Num10807.executor": "Run",
+    "Application.공바꾸기_Num10813.executor": "Run",
+    "Application.과제_Num5597.executor": "Run",
+    "Application.구구단_Num2739.executor": "Run",
+    "Application.네번째점_Num3009.executor": "Run",
+    "Application.단어공부_Num1157.executor": "Run",
+    "Application.단어의개수_1152.executor": "Run",
+    "Application.달팽이올라가고싶다_Num2869.executor": "Run",
+    "Application.대지_Num9063.executor": "Run",
+    "Application.대칭차집합_Num1269.executor": "Run",
+    "Application.듣보잡_Num1764.executor": "Run",
+    "Application.문자열집합_Num14425.executor": "Run",
+    "Application.반복더하기빼기_Num10950.executor": "Run",
+    "Application.배수와약수_Num5086.executor": "Run",
+    "Application.분해합_Num2231.executor": "Run",
+    "Application.블랙잭_2798.executor": "Run",
+    "Application.빠른더하기_Num15552.executor": "Run",
+    "Application.서로다른부분문자열의개수_Num11478.executor": "Run",
+    "Application.설탕배달_Num2839.executor": "Run",
+    "Application.세로읽기_Num10798.executor": "Run",
+    "Application.세탁소사장동혁_Num2720.executor": "Run",
+    "Application.소수_Num2581.executor": "Run",
+    "Application.소수찾기_Num1978.executor": "Run",
+    "Application.소인수분해_Num11653.executor": "Run",
+    "Application.수_정렬하기2_2751.executor": "Run",
+    "Application.수학은비대면_Num19532.executor": "Run",
+    "Application.수학은체육_Num15894.executor": "Run",
+    "Application.숫자의합.executor": "Run",
+    "Application.숫자의합_Num11720.executor": "Run",
+    "Application.숫자카드_Num10815.executor": "Run",
+    "Application.스택2_Num28278.executor": "Run",
+    "Application.아스키코드_Num11654.executor": "Run",
+    "Application.알파뱃찾기_Num10809.executor": "Run",
+    "Application.약수구하기_Num2501.executor": "Run",
+    "Application.약수들의집합_Num9506.executor": "Run",
+    "Application.영수증_25304.executor": "Run",
+    "Application.작은수_Num10871.executor": "Run",
+    "Application.중앙이동_Num2903.executor": "Run",
+    "Application.직사각형에서탈출_1085.executor": "Run",
+    "Application.진법변환2_Num11005.executor": "Run",
+    "Application.진법변환_Num2745.executor": "Run",
+    "Application.최대값_2566.executor": "Run",
+    "Application.최댓값_Num2562.executor": "Run",
+    "Application.최소공배수_Num1934.executor": "Run",
+    "Application.최소최대_Num10818.executor": "Run",
+    "Application.코딩은체육_Num25314.executor": "Run",
+    "Application.팩토리얼2_Num27433.executor": "Run",
+    "Application.팰린드롬_10988.executor": "Run",
+    "Application.평균_Num1546.executor": "Run",
+    "Application.피보나치수_Num10870.executor": "Run",
+    "Application.합_Num8393.executor": "Run",
+    "Application.행렬덧셈_2738.executor": "Run",
+    "Application.회사에있는사람_Num7785.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "11",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/ksjk7/study/Backjoon",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/ksjk7/study/Backjoon/src/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "editor.preferences.inline.completion",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2023.3.2\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "JAVA"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ksjk7\study\hello-spring\Backjoon\src\export002" />
+      <recent name="C:\Users\ksjk7\study\hello-spring\Backjoon\src\export001_001" />
+      <recent name="C:\Users\ksjk7\study\hello-spring\Backjoon\src" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="export001_003" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Num10448">
+    <configuration name="Num10448" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Section12_BruteForce.Num10448" />
+      <module name="Backjoon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Section12_BruteForce.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Num14888" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Section20_BackTracking.Num14888" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Section20_BackTracking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Num15652" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Section20_BackTracking.Num15652" />
+      <module name="Backjoon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Section20_BackTracking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Num9663" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Section20_BackTracking.Num9663" />
+      <module name="Backjoon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Section20_BackTracking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="분해합_Num2231" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Section12_BruteForce.분해합_Num2231" />
+      <module name="Backjoon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Section12_BruteForce.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Num10448" />
+        <item itemvalue="Application.분해합_Num2231" />
+        <item itemvalue="Application.Num14888" />
+        <item itemvalue="Application.Num9663" />
+        <item itemvalue="Application.Num15652" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.31033.145" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.31033.145" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="30727f24-cb06-447f-9332-e6bf7bb793e5" name="Changes" comment="" />
+      <created>1704954049047</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1704954049047</updated>
+      <workItem from="1704954050173" duration="5615000" />
+      <workItem from="1714974259073" duration="978000" />
+      <workItem from="1730786808089" duration="885000" />
+      <workItem from="1730792455251" duration="669000" />
+      <workItem from="1730877083892" duration="11000" />
+      <workItem from="1731060291209" duration="10065000" />
+      <workItem from="1731077661121" duration="156000" />
+      <workItem from="1731077827539" duration="342000" />
+      <workItem from="1731078221151" duration="305000" />
+      <workItem from="1731078542230" duration="71000" />
+      <workItem from="1731078664342" duration="1620000" />
+      <workItem from="1731231488691" duration="1025000" />
+      <workItem from="1731309420963" duration="5515000" />
+      <workItem from="1731319152806" duration="9393000" />
+      <workItem from="1731390058252" duration="726000" />
+      <workItem from="1731397286438" duration="2913000" />
+      <workItem from="1731483722110" duration="6372000" />
+      <workItem from="1731490777236" duration="21000" />
+      <workItem from="1731492992426" duration="664000" />
+      <workItem from="1731591587368" duration="1236000" />
+      <workItem from="1731627680897" duration="3198000" />
+      <workItem from="1731657497179" duration="12961000" />
+      <workItem from="1731905384525" duration="7637000" />
+      <workItem from="1732521956419" duration="7387000" />
+      <workItem from="1732949534162" duration="1429000" />
+      <workItem from="1733727963697" duration="1212000" />
+      <workItem from="1753230778749" duration="30000" />
+      <workItem from="1753231756558" duration="64000" />
+      <workItem from="1753232855171" duration="797000" />
+      <workItem from="1753234264597" duration="1502000" />
+      <workItem from="1753246073451" duration="2306000" />
+      <workItem from="1753248719651" duration="4344000" />
+      <workItem from="1753344421045" duration="4032000" />
+      <workItem from="1753764699253" duration="79000" />
+      <workItem from="1753764831825" duration="61000" />
+      <workItem from="1754284093339" duration="1727000" />
+      <workItem from="1754373956465" duration="5677000" />
+      <workItem from="1754443677260" duration="6656000" />
+      <workItem from="1754483555285" duration="5309000" />
+      <workItem from="1754533280592" duration="4998000" />
+      <workItem from="1754613323481" duration="1217000" />
+      <workItem from="1754756674901" duration="663000" />
+      <workItem from="1754758833173" duration="182000" />
+      <workItem from="1754893850102" duration="645000" />
+      <workItem from="1754997721268" duration="283000" />
+      <workItem from="1755069543555" duration="643000" />
+      <workItem from="1755150343267" duration="723000" />
+      <workItem from="1755476785749" duration="90000" />
+      <workItem from="1755580610052" duration="164000" />
+      <workItem from="1755742552967" duration="663000" />
+      <workItem from="1756194385299" duration="692000" />
+      <workItem from="1756268292200" duration="47000" />
+      <workItem from="1756780924252" duration="17000" />
+      <workItem from="1758763064714" duration="5594000" />
+      <workItem from="1759133827369" duration="54000" />
+      <workItem from="1759217993564" duration="108000" />
+      <workItem from="1759304314816" duration="879000" />
+      <workItem from="1759378646531" duration="1821000" />
+      <workItem from="1760317677485" duration="4285000" />
+      <workItem from="1760328641679" duration="2417000" />
+      <workItem from="1760342803400" duration="70000" />
+      <workItem from="1760425546852" duration="982000" />
+      <workItem from="1760426552985" duration="2881000" />
+      <workItem from="1760509266950" duration="633000" />
+      <workItem from="1760685770255" duration="1482000" />
+      <workItem from="1761199483752" duration="4854000" />
+      <workItem from="1761264820477" duration="4032000" />
+      <workItem from="1761572290239" duration="1287000" />
+      <workItem from="1761727585969" duration="7000" />
+      <workItem from="1761832929082" duration="981000" />
+      <workItem from="1761870651545" duration="5419000" />
+      <workItem from="1762143676370" duration="20000" />
+      <workItem from="1765197402431" duration="870000" />
+      <workItem from="1765267843473" duration="3655000" />
+      <workItem from="1765340186354" duration="3009000" />
+      <workItem from="1765425292740" duration="139000" />
+      <workItem from="1765619041625" duration="2918000" />
+      <workItem from="1765703074653" duration="2422000" />
+      <workItem from="1765778178255" duration="11018000" />
+      <workItem from="1766311436423" duration="2175000" />
+      <workItem from="1767864575790" duration="5093000" />
+      <workItem from="1767940104897" duration="1985000" />
+      <workItem from="1768139168890" duration="458000" />
+      <workItem from="1768202371799" duration="2464000" />
+      <workItem from="1768210207398" duration="2192000" />
+      <workItem from="1768227518062" duration="892000" />
+      <workItem from="1768265982982" duration="342000" />
+      <workItem from="1768293289643" duration="3755000" />
+      <workItem from="1768302502985" duration="1936000" />
+      <workItem from="1768458883288" duration="5919000" />
+      <workItem from="1768547637537" duration="6749000" />
+      <workItem from="1768724124967" duration="4489000" />
+      <workItem from="1768811776781" duration="5402000" />
+      <workItem from="1768878341892" duration="2520000" />
+      <workItem from="1768995387591" duration="1024000" />
+      <workItem from="1769046106541" duration="11099000" />
+      <workItem from="1769073214644" duration="6549000" />
+      <workItem from="1769158736563" duration="2181000" />
+      <workItem from="1769166379836" duration="2680000" />
+      <workItem from="1769330902871" duration="6075000" />
+      <workItem from="1769654960170" duration="8181000" />
+      <workItem from="1769947990944" duration="4779000" />
+      <workItem from="1770018467039" duration="8343000" />
+      <workItem from="1770090356401" duration="9875000" />
+      <workItem from="1770176769290" duration="1859000" />
+      <workItem from="1770195791106" duration="8956000" />
+      <workItem from="1770265311824" duration="668000" />
+      <workItem from="1770266863868" duration="64000" />
+      <workItem from="1770705839864" duration="219000" />
+      <workItem from="1770706109755" duration="2942000" />
+      <workItem from="1770873227268" duration="5578000" />
+      <workItem from="1770973379320" duration="52000" />
+      <workItem from="1773390748988" duration="329000" />
+      <workItem from="1773391565175" duration="95000" />
+      <workItem from="1774328950685" duration="5762000" />
+      <workItem from="1774338637168" duration="2440000" />
+      <workItem from="1774485401956" duration="5371000" />
+      <workItem from="1774501341714" duration="1938000" />
+      <workItem from="1774591742689" duration="711000" />
+      <workItem from="1774593087854" duration="611000" />
+      <workItem from="1774856500207" duration="453000" />
+      <workItem from="1774856975107" duration="613000" />
+      <workItem from="1774858556872" duration="331000" />
+      <workItem from="1774858923914" duration="2209000" />
+      <workItem from="1775029072993" duration="1040000" />
+      <workItem from="1775031894722" duration="20000" />
+      <workItem from="1775465607848" duration="2787000" />
+    </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1731079349443</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1731079349443</updated>
+    </task>
+    <task id="LOCAL-00002" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1731390169739</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1731390169739</updated>
+    </task>
+    <task id="LOCAL-00003" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1731489769889</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1731489769889</updated>
+    </task>
+    <task id="LOCAL-00004" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1731666236057</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1731666236057</updated>
+    </task>
+    <task id="LOCAL-00005" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1731913349256</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1731913349256</updated>
+    </task>
+    <task id="LOCAL-00006" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1732527411828</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1732527411828</updated>
+    </task>
+    <task id="LOCAL-00007" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1753764768709</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1753764768709</updated>
+    </task>
+    <task id="LOCAL-00008" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1753764876469</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1753764876469</updated>
+    </task>
+    <task id="LOCAL-00009" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1754374316042</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1754374316042</updated>
+    </task>
+    <task id="LOCAL-00010" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1754376445617</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1754376445617</updated>
+    </task>
+    <task id="LOCAL-00011" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1754462973213</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1754462973213</updated>
+    </task>
+    <task id="LOCAL-00012" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1754463055305</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1754463055305</updated>
+    </task>
+    <task id="LOCAL-00013" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1754533316010</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1754533316010</updated>
+    </task>
+    <task id="LOCAL-00014" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1754613346647</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1754613346647</updated>
+    </task>
+    <task id="LOCAL-00015" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1754893862151</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1754893862151</updated>
+    </task>
+    <task id="LOCAL-00016" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1754893872388</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1754893872388</updated>
+    </task>
+    <task id="LOCAL-00017" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1755069590411</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1755069590411</updated>
+    </task>
+    <task id="LOCAL-00018" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1755150469106</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1755150469106</updated>
+    </task>
+    <task id="LOCAL-00019" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1755476839460</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1755476839460</updated>
+    </task>
+    <task id="LOCAL-00020" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1755742593590</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1755742593590</updated>
+    </task>
+    <task id="LOCAL-00021" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1756194467337</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1756194467337</updated>
+    </task>
+    <task id="LOCAL-00022" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1756268343075</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1756268343075</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Section02/Exam03.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Section13_sort/Num2750.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Section05_String/아스키코드_Num11654.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Section12_BruteForce/블랙잭_2798.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Section12_BruteForce/수학은비대면_Num19532.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Section14_MapSet/대칭차집합_Num1269.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Section14_MapSet/서로다른부분문자열의개수_Num11478.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Section04_Array/과제_Num5597.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Section03_Loop/Num2438.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Section03_Loop/Num11021.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Section05_String/Num2908.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Section08_Math1/Num2292.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Section13_sort/Num1181.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Section16_StackQueue/Num9012.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Section13_sort/Num2750.java</url>
+          <line>6</line>
+          <properties class="Section13_sort.Num2750">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Section05_String/숫자의합_Num11720.java</url>
+          <line>5</line>
+          <properties class="Section05_String.숫자의합_Num11720">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Section08_Math1/세탁소사장동혁_Num2720.java</url>
+          <line>5</line>
+          <properties class="Section08_Math1.세탁소사장동혁_Num2720">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Section10_Geometry/네번째점_Num3009.java</url>
+          <line>8</line>
+          <properties class="Section10_Geometry.네번째점_Num3009">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Section21_recursion/Num4779.java</url>
+          <line>12</line>
+          <properties class="Section21_recursion.Num4779">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/Section21_recursion/Num11729.java</url>
+          <line>5</line>
+          <properties field="count" class="Section21_recursion.Num11729" />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
