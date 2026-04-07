@@ -5,30 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30727f24-cb06-447f-9332-e6bf7bb793e5" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/src/Section12_BruteForce/Num10448.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Section20_BackTracking/Num14888.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Section20_BackTracking/Num9663.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Section24/Num24479.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Section27graph/Num24479.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/backjoon/Num2178.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backjoon.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Backjoon.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Multcampus/homeWork1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Multcampus/homeWork2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Multcampus/homeWork3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Multcampus/homeWork4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Multcampus/object/Example.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Multcampus/object/Human.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Multcampus/object/walkable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Section12_BruteForce/분해합_Num2231.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Section12_BruteForce/분해합_Num2231.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AbstractVsInterface/Sparrow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Section12_BruteForce/Num2309.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Section12_BruteForce/Num9095.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Section20_BackTracking/Num2503.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test/st.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,8 +121,10 @@
     "Application.Num18258.executor": "Run",
     "Application.Num2108.executor": "Run",
     "Application.Num2292.executor": "Run",
+    "Application.Num2309.executor": "Run",
     "Application.Num2438.executor": "Run",
     "Application.Num2439.executor": "Run",
+    "Application.Num2503.executor": "Run",
     "Application.Num25192.executor": "Run",
     "Application.Num25206.executor": "Run",
     "Application.Num25305.executor": "Run",
@@ -157,6 +141,7 @@
     "Application.Num4779.executor": "Run",
     "Application.Num9012.executor": "Run",
     "Application.Num9086.executor": "Run",
+    "Application.Num9095.executor": "Run",
     "Application.Num9663.executor": "Run",
     "Application.Num_1920.executor": "Run",
     "Application.Section21_recursion.Num11729.executor": "Run",
@@ -181,6 +166,7 @@
     "Application.homeWork2.executor": "Run",
     "Application.homeWork3.executor": "Run",
     "Application.homeWork4.executor": "Run",
+    "Application.st.executor": "Run",
     "Application.test.executor": "Run",
     "Application.work01.executor": "Run",
     "Application.work02.executor": "Run",
@@ -278,9 +264,22 @@
       <recent name="export001_003" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Num10448">
-    <configuration name="Num10448" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Section12_BruteForce.Num10448" />
+  <component name="RunManager" selected="Application.Num9095">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AbstractVsInterface.Main" />
+      <module name="Backjoon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AbstractVsInterface.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Num2309" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Section12_BruteForce.Num2309" />
       <module name="Backjoon" />
       <extension name="coverage">
         <pattern>
@@ -292,22 +291,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Num14888" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="17" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Section20_BackTracking.Num14888" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Section20_BackTracking.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Num15652" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Section20_BackTracking.Num15652" />
+    <configuration name="Num2503" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Section20_BackTracking.Num2503" />
       <module name="Backjoon" />
       <extension name="coverage">
         <pattern>
@@ -319,25 +304,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Num9663" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Section20_BackTracking.Num9663" />
-      <module name="Backjoon" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Section20_BackTracking.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="분해합_Num2231" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Section12_BruteForce.분해합_Num2231" />
+    <configuration name="Num9095" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Section12_BruteForce.Num9095" />
       <module name="Backjoon" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Section12_BruteForce.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="st" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.st" />
+      <module name="Backjoon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -347,11 +332,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Num10448" />
-        <item itemvalue="Application.분해합_Num2231" />
-        <item itemvalue="Application.Num14888" />
-        <item itemvalue="Application.Num9663" />
-        <item itemvalue="Application.Num15652" />
+        <item itemvalue="Application.Num9095" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.st" />
+        <item itemvalue="Application.Num2503" />
+        <item itemvalue="Application.Num2309" />
       </list>
     </recent_temporary>
   </component>
@@ -497,7 +482,8 @@
       <workItem from="1774858923914" duration="2209000" />
       <workItem from="1775029072993" duration="1040000" />
       <workItem from="1775031894722" duration="20000" />
-      <workItem from="1775465607848" duration="2787000" />
+      <workItem from="1775465607848" duration="9154000" />
+      <workItem from="1775520964575" duration="11787000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
