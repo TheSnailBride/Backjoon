@@ -1,4 +1,4 @@
-package af;
+package lamdba;
 
 import java.util.function.Supplier;
 

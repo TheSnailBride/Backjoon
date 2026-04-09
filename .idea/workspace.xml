@@ -5,12 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30727f24-cb06-447f-9332-e6bf7bb793e5" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/src/AbstractVsInterface/Sparrow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Section12_BruteForce/Num2309.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Section12_BruteForce/Num9095.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Section20_BackTracking/Num2503.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test/st.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Section12_BruteForce/Num1062.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Section12_BruteForce/Num3085.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test/local.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/af/B001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lamdba/B001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/af/B002.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lamdba/B002.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/af/B003.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lamdba/B003.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/af/B005.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lamdba/B005.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/af/B006.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lamdba/B006.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/af/B007.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lamdba/B007.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,6 +101,7 @@
     "Application.Main.executor": "Run",
     "Application.Num1037.executor": "Run",
     "Application.Num10448.executor": "Run",
+    "Application.Num1062.executor": "Run",
     "Application.Num10773.executor": "Run",
     "Application.Num10811.executor": "Run",
     "Application.Num10813.executor": "Run",
@@ -138,6 +143,7 @@
     "Application.Num28278.executor": "Run",
     "Application.Num2839.executor": "Run",
     "Application.Num2908.executor": "Run",
+    "Application.Num3085.executor": "Run",
     "Application.Num4779.executor": "Run",
     "Application.Num9012.executor": "Run",
     "Application.Num9086.executor": "Run",
@@ -166,6 +172,7 @@
     "Application.homeWork2.executor": "Run",
     "Application.homeWork3.executor": "Run",
     "Application.homeWork4.executor": "Run",
+    "Application.local.executor": "Run",
     "Application.st.executor": "Run",
     "Application.test.executor": "Run",
     "Application.work01.executor": "Run",
@@ -264,13 +271,13 @@
       <recent name="export001_003" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Num9095">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AbstractVsInterface.Main" />
+  <component name="RunManager" selected="Application.Num1062">
+    <configuration name="B001" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.B001" />
       <module name="Backjoon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AbstractVsInterface.*" />
+          <option name="PATTERN" value="lambda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -278,8 +285,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Num2309" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Section12_BruteForce.Num2309" />
+    <configuration name="Num1062" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Section12_BruteForce.Num1062" />
       <module name="Backjoon" />
       <extension name="coverage">
         <pattern>
@@ -291,12 +298,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Num2503" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Section20_BackTracking.Num2503" />
+    <configuration name="Num3085" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Section12_BruteForce.Num3085" />
       <module name="Backjoon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Section20_BackTracking.*" />
+          <option name="PATTERN" value="Section12_BruteForce.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -317,8 +324,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="st" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test.st" />
+    <configuration name="local" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.local" />
       <module name="Backjoon" />
       <extension name="coverage">
         <pattern>
@@ -332,11 +339,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Num1062" />
+        <item itemvalue="Application.Num3085" />
+        <item itemvalue="Application.B001" />
+        <item itemvalue="Application.local" />
         <item itemvalue="Application.Num9095" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.st" />
-        <item itemvalue="Application.Num2503" />
-        <item itemvalue="Application.Num2309" />
       </list>
     </recent_temporary>
   </component>
@@ -483,7 +490,9 @@
       <workItem from="1775029072993" duration="1040000" />
       <workItem from="1775031894722" duration="20000" />
       <workItem from="1775465607848" duration="9154000" />
-      <workItem from="1775520964575" duration="11787000" />
+      <workItem from="1775520964575" duration="12911000" />
+      <workItem from="1775547589410" duration="3253000" />
+      <workItem from="1775696599258" duration="8078000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -763,7 +772,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Section13_sort/Num2750.java</url>
           <line>6</line>
-          <properties class="Section13_sort.Num2750">
+          <properties class="Section13_sort.Num2750" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -772,7 +781,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Section05_String/숫자의합_Num11720.java</url>
           <line>5</line>
-          <properties class="Section05_String.숫자의합_Num11720">
+          <properties class="Section05_String.숫자의합_Num11720" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -781,7 +790,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Section08_Math1/세탁소사장동혁_Num2720.java</url>
           <line>5</line>
-          <properties class="Section08_Math1.세탁소사장동혁_Num2720">
+          <properties class="Section08_Math1.세탁소사장동혁_Num2720" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -790,7 +799,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Section10_Geometry/네번째점_Num3009.java</url>
           <line>8</line>
-          <properties class="Section10_Geometry.네번째점_Num3009">
+          <properties class="Section10_Geometry.네번째점_Num3009" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -799,7 +808,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Section21_recursion/Num4779.java</url>
           <line>12</line>
-          <properties class="Section21_recursion.Num4779">
+          <properties class="Section21_recursion.Num4779" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>

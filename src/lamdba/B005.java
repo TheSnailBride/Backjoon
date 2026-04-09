@@ -1,4 +1,4 @@
-package af;
+package lamdba;
 
 public class B005 {
     public static void main(String[] args) {
