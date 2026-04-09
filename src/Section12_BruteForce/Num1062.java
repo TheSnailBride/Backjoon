@@ -2,7 +2,7 @@ package Section12_BruteForce;
 
 import java.util.Scanner;
 
-public class Num1062 {
+public class Num1062 { // char -'a' 숫자 변환 for 2중일때 마지막 체크
     public static int K;
     public static boolean[] visited = new boolean[26];
     public static String[] arr ;
@@ -61,7 +61,7 @@ public class Num1062 {
     public static int canRead(){
         int can =0;
         for(int i=0; i<arr.length; i++){
-            boolean check = true;
+            boolean check = true; //
             for(int j=0; j<arr[i].length(); j++ ){ // 앞 4 뒤 4 읽을 필요 없음
                 int target = arr[i].charAt(j) -'a';
                 if(!visited[target]) {
