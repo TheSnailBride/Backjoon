@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30727f24-cb06-447f-9332-e6bf7bb793e5" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/src/Section12_BruteForce/Num18312.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Section12_BruteForce/Num22864.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Section12_BruteForce/Num15721번데기.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Section12_BruteForce/Num18511.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Section12_BruteForce/Num2422.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Section12_BruteForce/Num1062.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Section12_BruteForce/Num1062.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/st.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/st.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AbstractVsInterface/Bat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AbstractVsInterface/Bat.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,6 +120,7 @@
     "Application.Num1654.executor": "Run",
     "Application.Num18258.executor": "Run",
     "Application.Num18312.executor": "Run",
+    "Application.Num18511.executor": "Run",
     "Application.Num2108.executor": "Run",
     "Application.Num22864.executor": "Run",
     "Application.Num2292.executor": "Run",
@@ -268,13 +269,13 @@
       <recent name="export001_003" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Num22864">
-    <configuration name="Num1062" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Section12_BruteForce.Num1062" />
+  <component name="RunManager" selected="Application.Num18511">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AbstractVsInterface.Main" />
       <module name="Backjoon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Section12_BruteForce.*" />
+          <option name="PATTERN" value="AbstractVsInterface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -295,8 +296,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Num22864" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Section12_BruteForce.Num22864" />
+    <configuration name="Num18511" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Section12_BruteForce.Num18511" />
       <module name="Backjoon" />
       <extension name="coverage">
         <pattern>
@@ -308,8 +309,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Num3085" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Section12_BruteForce.Num3085" />
+    <configuration name="Num22864" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Section12_BruteForce.Num22864" />
       <module name="Backjoon" />
       <extension name="coverage">
         <pattern>
@@ -336,11 +337,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Num18511" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Num22864" />
         <item itemvalue="Application.st" />
         <item itemvalue="Application.Num18312" />
-        <item itemvalue="Application.Num1062" />
-        <item itemvalue="Application.Num3085" />
       </list>
     </recent_temporary>
   </component>
@@ -489,7 +490,9 @@
       <workItem from="1775465607848" duration="9154000" />
       <workItem from="1775520964575" duration="12911000" />
       <workItem from="1775547589410" duration="3253000" />
-      <workItem from="1775696599258" duration="13576000" />
+      <workItem from="1775696599258" duration="13846000" />
+      <workItem from="1775722927194" duration="1106000" />
+      <workItem from="1775810369266" duration="7314000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />

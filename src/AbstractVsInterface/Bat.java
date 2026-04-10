@@ -23,4 +23,6 @@ public class Bat extends Animal implements Flyable {
     public void fly() {
         System.out.println(name + "가 밤하늘을 조용히 날아다닙니다.");
     }
+
+
 }
