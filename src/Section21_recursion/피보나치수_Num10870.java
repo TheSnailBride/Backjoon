@@ -10,10 +10,12 @@ public class 피보나치수_Num10870 {
 
         System.out.println(fibonacci(num));
     }
-    public static int fibonacci(int n){
-        if(n<=1) return n;
-        else return fibonacci(n-1) + fibonacci(n-2);
+
+    public static int fibonacci(int num){
+        if(num <= 1 ) return num;
+        else return fibonacci(num-1) + fibonacci(num-2);
 
 
     }
+
 }
